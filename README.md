@@ -1,13 +1,13 @@
-BDD Framework for the testing of web applications using the Page Object Model with Selenium, Cucumber, and TestNG.
+##BDD Framework for the testing of web applications using the Page Object Model with Selenium, Cucumber, and TestNG.
 
 Selenium Webdriver: Page Object Model (POM) With Page Factory
 
 
-Prerequisite software
+##Prerequisite software
 •	Download & Install JDK
 •	Download & Install Eclipse IDE
 
-Steps to setup Cucumber Test Automation Framework using Page Object Model
+##Steps to setup Cucumber Test Automation Framework using Page Object Model
 
 1.	Download and Install Java on the system
 2.	Setup Maven on System
@@ -35,17 +35,17 @@ Cucumber Eclipse plugin install from Marketplace - Help >> Eclipse Marketplace >
 
 •	Convert the project to the Cucumber project.
 
-Related Resource
+##Related Resource
 
 Page Object Model (POM) With Page Factory in Selenium Cucumber and TestNG
 Page Object Model (POM) & Page Factory in Selenium
 
-Run Test Case
+##Run Test Case
 
 Run Test Case - Go to Test Runner class, Right-click the mouse >> Run AS >> TestNG Test 
 Run XML File - After creating the TestNG file, Right click the mouse on TestNG xml >> click on Run
 
-Cucumber Report Generation
+##Cucumber Report Generation
 
 Right-click the project name >>Run As>>Maven Install
 Then refresh the project and go to target>> cucumber-report-html>> cucumber-html-reports>> HomeheaderCamp-feature.html open with System Editor.
