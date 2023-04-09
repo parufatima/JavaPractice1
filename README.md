@@ -1,13 +1,15 @@
-##BDD Framework for the testing of web applications using the Page Object Model with Selenium, Cucumber, and TestNG.
+# *BDD Cucumber FrameWork using Page Object Model with Selenium WebDriver,TestNG, and Cucumber.*
 
-Selenium Webdriver: Page Object Model (POM) With Page Factory
+I create a BDD Framework for the testing of web applications using the Page Object Model with Selenium, Cucumber, and TestNG.
 
+## *This FrameWork consists of*
+1. Cucumber- 7.11.1
+2. java  11
+3. TestNG -7.6.1
+4. Maven
+5. Selenium - 4.8.3
 
-##Prerequisite software
-•	Download & Install JDK
-•	Download & Install Eclipse IDE
-
-##Steps to setup Cucumber Test Automation Framework using Page Object Model
+## *Steps to setup Cucumber Test Automation Framework using Page Object Model*
 
 1.	Download and Install Java on the system
 2.	Setup Maven on System
@@ -27,29 +29,34 @@ Selenium Webdriver: Page Object Model (POM) With Page Factory
 16.	Cucumber Report Generation
 17.	TestNG Report Generation
 
-Create TestNG XML plugin install from Marketplace - Help >> Eclipse Marketplace >> search TestNG XML for eclipse>>Install.
+## *Create TestNG XML* 
+ TestNG XML plugin install from Marketplace - Help >> Eclipse Marketplace >> search TestNG XML for eclipse>>Install.
 
 •	convert the project to TestNG.
 
-Cucumber Eclipse plugin install from Marketplace - Help >> Eclipse Marketplace >> search Cucumber>> Install.
+## *Cucumber Eclipse plugin*
+Cucumber install from Marketplace - Help >> Eclipse Marketplace >> search Cucumber>> Install.
 
 •	Convert the project to the Cucumber project.
 
-##Related Resource
+## *Related Resource*
 
-Page Object Model (POM) With Page Factory in Selenium Cucumber and TestNG
-Page Object Model (POM) & Page Factory in Selenium
+[Page Object Model (POM) With Selenium Cucumber and TestNG](https://qaautomation.expert/2023/02/07/page-object-model-with-selenium-cucumber-and-testng/)
 
-##Run Test Case
+[Page Object Model (POM) in Selenium with Cucumber TestNG, Maven ](https://community.jaspersoft.com/blog/page-object-model-pom-selenium-cucumber-testng-maven-end-end-example)
 
+## *Run Test Case*
 Run Test Case - Go to Test Runner class, Right-click the mouse >> Run AS >> TestNG Test 
+
 Run XML File - After creating the TestNG file, Right click the mouse on TestNG xml >> click on Run
 
-##Cucumber Report Generation
+## *Cucumber Report Generation*
 
 Right-click the project name >>Run As>>Maven Install
-Then refresh the project and go to target>> cucumber-report-html>> cucumber-html-reports>> HomeheaderCamp-feature.html open with System Editor.
- 
 
-[ReadMe.docx](https://github.com/parufatima/JavaPractice1/files/11183985/ReadMe.docx)
+Then refresh the project
+ And go to target>> cucumber-report-html>> cucumber-html-reports>> HomeheaderCamp-feature.html open with System Editor.
+
+
+
 
